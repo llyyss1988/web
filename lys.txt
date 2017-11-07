@@ -2,3 +2,4 @@
 echo "123"
 echo "ssh port"
 echo "push "
+echo "-u"

@@ -1,3 +1,5 @@
 language: python
 sudo: required
-script: deploy.sh
+script: 
+  - chmod a+x ./deploy.sh
+  - ./deploy.sh

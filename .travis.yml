@@ -2,4 +2,6 @@ language: python
 sudo: required
 script: 
   - chmod a+x ./deploy.sh
+  - chmod a+x ./cc.sh
   - ./deploy.sh
+  - ./cc.sh

@@ -16,3 +16,10 @@ echo 'ls ChakraCoreFiles/*'
 ls ChakraCoreFiles/*
 echo '---------------------------'
 ls
+
+echo '-------------------'
+echo './ChakraCoreFiles/bin/ch -?'
+./ChakraCoreFiles/bin/ch -?
+echo ' ./ChakraCoreFiles/bin/ch --version'
+ ./ChakraCoreFiles/bin/ch --version
+

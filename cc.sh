@@ -8,6 +8,7 @@ if [ -d "./ChakraCoreFiles" ]; then
     echo 'file have ...'
     echo 'file have ...'
     echo 'file have ...'
+    echo 'file have ...'
 else
     echo 'file no...'
     echo 'wget https://aka.ms/chakracore/cc_linux_x64_1_11_1'

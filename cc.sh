@@ -43,10 +43,10 @@ echo ' ./ChakraCoreFiles/bin/ch --version'
  ./ChakraCoreFiles/bin/ch --version
  
  echo '------------node---------------'
- echo 'ls node-v4.1.2-linux-x64/*'
-ls node-v4.1.2-linux-x64/*
-echo './node-v4.1.2-linux-x64/bin/node -v'
-./node-v4.1.2-linux-x64/bin/node -v
+ echo 'ls node-v10.15.3-linux-x64/*'
+ls node-v10.15.3-linux-x64/*
+echo './node-v10.15.3-linux-x64/bin/node -v'
+./node-v10.15.3-linux-x64/bin/node -v
  
  
  

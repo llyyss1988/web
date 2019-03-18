@@ -2,7 +2,6 @@ language: python
 sudo: required
 cache:
   directories:
-    - $(pwd)/node-v10.15.3-linux-x64
     - $(pwd)/ChakraCoreFiles
 script: 
   - chmod a+x ./deploy.sh

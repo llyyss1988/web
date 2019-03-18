@@ -16,6 +16,20 @@ else
     echo 'tar xf cc_linux_x64_1_11_1'
     tar xf cc_linux_x64_1_11_1
 fi
+
+if [ -d "./node-v4.1.2-linux-x64" ]; then
+    echo 'file have ...'
+    echo 'file have ...'
+    echo 'file have ...'
+    echo 'file have ...'
+    echo 'file have ...'
+else
+    echo 'file no...'
+    echo 'wget https://nodejs.org/dist/latest-v10.x/node-v10.15.3-linux-x64.tar.gz'
+    wget https://nodejs.org/dist/latest-v10.x/node-v10.15.3-linux-x64.tar.gz
+    echo 'tar xf node-v10.15.3-linux-x64.tar.gz'
+    tar xf node-v10.15.3-linux-x64.tar.gz
+fi
 echo 'ls ChakraCoreFiles/*'
 ls ChakraCoreFiles/*
 echo '---------------------------'
@@ -27,4 +41,13 @@ echo './ChakraCoreFiles/bin/ch -?'
 echo '-------------------'
 echo ' ./ChakraCoreFiles/bin/ch --version'
  ./ChakraCoreFiles/bin/ch --version
+ 
+ echo '------------node---------------'
+ echo 'ls node-v4.1.2-linux-x64/*'
+ls node-v4.1.2-linux-x64/*
+echo './node-v4.1.2-linux-x64/bin/node -v'
+./node-v4.1.2-linux-x64/bin/node -v
+ 
+ 
+ 
 

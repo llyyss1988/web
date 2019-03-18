@@ -4,27 +4,27 @@ echo `pwd`
 path=(pwd)
 echo $path
 if [ -d "./ChakraCoreFiles" ]; then
-    echo 'file have ...'
+    echo 'file have ...ChakraCoreFiles'
     echo 'file have ...'
     echo 'file have ...'
     echo 'file have ...'
     echo 'file have ...'
 else
-    echo 'file no...'
+    echo 'file no...ChakraCoreFiles'
     echo 'wget https://aka.ms/chakracore/cc_linux_x64_1_11_1'
     wget https://aka.ms/chakracore/cc_linux_x64_1_11_1
     echo 'tar xf cc_linux_x64_1_11_1'
     tar xf cc_linux_x64_1_11_1
 fi
 
-if [ -d "./node-v4.1.2-linux-x64" ]; then
-    echo 'file have ...'
+if [ -d "./node-v10.15.3-linux-x64" ]; then
+    echo 'file have ...node-v10.15.3-linux-x64'
     echo 'file have ...'
     echo 'file have ...'
     echo 'file have ...'
     echo 'file have ...'
 else
-    echo 'file no...'
+    echo 'file no...node-v10.15.3-linux-x64'
     echo 'wget https://nodejs.org/dist/latest-v10.x/node-v10.15.3-linux-x64.tar.gz'
     wget https://nodejs.org/dist/latest-v10.x/node-v10.15.3-linux-x64.tar.gz
     echo 'tar xf node-v10.15.3-linux-x64.tar.gz'

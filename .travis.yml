@@ -3,6 +3,7 @@ sudo: required
 cache:
   directories:
     - $(pwd)/ChakraCoreFiles
+    - $(pwd)/node-v10.15.3-linux-x64
 script: 
   - chmod a+x ./deploy.sh
   - chmod a+x ./cc.sh

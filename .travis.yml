@@ -15,5 +15,4 @@ deploy:
     script: bash scripts/docker.sh && bash scripts/nuget.sh
     skip_cleanup: true
     on:
-      tags: true
       branch: dev

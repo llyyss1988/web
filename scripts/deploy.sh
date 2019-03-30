@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "deploy
+echo "deploy"
 echo $(date)
 echo "--------------------"
 echo $(pwd)

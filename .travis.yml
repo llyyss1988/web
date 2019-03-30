@@ -22,4 +22,4 @@ deploy:
     skip_cleanup: true
     on:
       branch: dev
-      condition: TRAVIS_OS_NAME = linux
+      condition: linux = linux

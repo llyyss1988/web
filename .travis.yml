@@ -12,13 +12,7 @@ script:
   - bash scripts/nuget.sh
 deploy:
   - provider: script
-    script: bash scripts/docker.sh
-    skip_cleanup: true
-    on:
-      tags: true
-      branch: dev
-  - provider: script
-    script: bash scripts/docker.sh
+    script: bash scripts/docker.sh && bash scripts/nuget.sh
     skip_cleanup: true
     on:
       tags: true

@@ -22,4 +22,4 @@ deploy:
     skip_cleanup: true
     on:
       branch: dev
-      condition: linux = linux
+      condition: os = linux

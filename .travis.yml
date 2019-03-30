@@ -17,6 +17,4 @@ deploy:
     on:
       branch: dev
       tags: true
-      condition: os = linux
-
-
+      condition: $TRAVIS_BRANCH = dev

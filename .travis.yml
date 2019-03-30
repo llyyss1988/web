@@ -8,6 +8,8 @@ before_install:
   - npm install -g yarn
 script:
   - bash scripts/deploy.sh
+  - bash scripts/docker.sh
+  - bash scripts/nuget.sh
 deploy:
   - provider: script
     script: bash scripts/docker.sh

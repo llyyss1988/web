@@ -21,5 +21,5 @@ deploy:
     script: bash scripts/docker.sh && bash scripts/docker.sh
     skip_cleanup: true
     on:
-      tags: true
       branch: dev
+      condition: TRAVIS_OS_NAME = linux

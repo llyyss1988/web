@@ -12,7 +12,7 @@ script:
   - bash scripts/nuget.sh
 deploy:
   - provider: script
-    script: bash scripts/docker.sh && bash scripts/nuget.sh
+    script: if [[ "$TRAVIS_OS_BRANCH" == "dev" ]]; then bash scripts/docker.sh && bash scripts/nuget.sh          ; fi
     skip_cleanup: true
     on:
       branch: dev

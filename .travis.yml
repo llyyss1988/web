@@ -20,4 +20,5 @@ deploy:
     script: bash scripts/docker.sh && bash scripts/docker.sh
     skip_cleanup: true
     on:
-      all_branches: true
+      tags: true
+      branch: dev

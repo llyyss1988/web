@@ -15,9 +15,9 @@ deploy:
     script: bash scripts/nuget.sh && bash scripts/nuget.sh
     skip_cleanup: true
     on:
-      branch: dev
+      all_branches: true
   - provider: script
     script: bash scripts/docker.sh && bash scripts/docker.sh
     skip_cleanup: true
     on:
-      branch: devv
+      all_branches: true

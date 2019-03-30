@@ -1,10 +1,14 @@
-language: python
+language: csharp
 sudo: required
-cache:
-  directories:
-    - $(pwd)/node-v10.15.3-linux-x64
-script: 
-  - chmod a+x ./deploy.sh
-  - chmod a+x ./cc.sh
-  - ./deploy.sh
-  - ./cc.sh
+mono: none
+dotnet: 2.2.105
+dist: xenial
+before_install:
+  - nvm install node
+  - npm install -g yarn
+deploy:
+  - provider: script
+    script: bash scripts/deploy.sh
+    skip_cleanup: true
+    on:
+      tags: true

@@ -4,3 +4,4 @@ echo "ssh port"
 echo "push "
 echo "-u"
 echo "git push"
+echo 'git token'

@@ -6,3 +6,12 @@ echo "-u"
 echo "git push"
 echo 'git token'
 echo "201905291911"
+#!/bin/bash
+echo "123"
+echo "ssh port"
+echo "push "
+echo "-u"
+echo "git push"
+echo 'git token'
+echo "201905291911"
+
